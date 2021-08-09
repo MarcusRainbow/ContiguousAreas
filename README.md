@@ -48,4 +48,21 @@ Clearly, shapes that are not connected are additive. Thus the overall count is a
 
 (apologies for the hand-wavy maths)
 
+## Is there anything special about top-left and bottom-right
+
+No, the algorithm also works equally well with any opposing pair of corners, for example add one for this pattern:
+
+```
+0 1
+0 0
+```
+
+Subtract one for this pattern:
+
+```
+1 1
+0 1
+```
+
+
 
